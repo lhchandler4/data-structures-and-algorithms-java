@@ -10,3 +10,8 @@ I took the approach of running a for loop for the first half of the array and pu
 
 ## Solution
 ![](../img/ArrayShift.jpeg)
+
+-[Array Shift Code] (src/main/java/Java/ArrayShift)
+
+-[Array Shift Test] (src/test/java/Java/ArrayShiftTest)
+
