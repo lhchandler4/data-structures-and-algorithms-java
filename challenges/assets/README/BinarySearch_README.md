@@ -14,6 +14,6 @@ Else (the key is smaller) then the key can only lie in right half after the midd
 ## Solution
 ![](../img/BinarySearch.jpg)
 
-- [Binary Search Code](src/main/java/Java/BinarySearch)
+- [Binary Search Code](./src/main/java/Java/BinarySearch)
 
-- [Binary Search Test](src/test/java/Java/BinarySearchTest)
+- [Binary Search Test](./src/test/java/Java/BinarySearchTest)

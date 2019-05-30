@@ -5,7 +5,7 @@ import static org.junit.Assert.*;
 
 public class BinarySearchTest {
     int inputArray[] = new int[]{1,3,6,7,9,15,17,25,29,35,59,86,99,100};
-   
+
     @Test
     public void test_return_index_of_array_equal_to_search_key() {
         assertEquals(7, BinarySearch.binarySearch(inputArray, 25));
