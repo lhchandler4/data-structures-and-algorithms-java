@@ -9,11 +9,9 @@ public class LinkedList {
         this.head = null;
     }
 
-// I just wanted to write this method because I saw it while watching a HackerRank YouTube video
-
     public void append(int data) {
-        if (head == null) {
-            head = new Node(data);
+        if (this.head == null) {
+            this.head = new Node(data);
             return;
         }
         Node current = head;

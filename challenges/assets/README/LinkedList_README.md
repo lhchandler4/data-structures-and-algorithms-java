@@ -17,4 +17,4 @@ Insert has a big O of 1. Includes has a big O of n. Print also has a big O of n.
 ## Solution
 - [Linked List Code](../../src/main/java/Java/LinkedList/LinkedList.java)
 
-- [Linked List Test](../../src/test/java/Java/LinkedListTest/LinkedListTest.java)
+- [Linked List Test](../../src/test/java/Java/LinkedList/LinkedListTest.java)
