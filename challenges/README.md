@@ -5,3 +5,7 @@
 - [Day 2 : Array Shift](./assets/README/ArrayShift_README.md)
 
 - [Day 3 : Binary Search](./assets/README/BinarySearch_README.md)
+
+## Week 2
+
+- [Day 1 : Linked List:](./assets/README/LinkedList_README.md)
