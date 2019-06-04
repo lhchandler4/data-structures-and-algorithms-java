@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="14878be5-1913-4177-b134-4ae04f1aeed9" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/assets/README/LinkedList_README.md" beforeDir="false" afterPath="$PROJECT_DIR$/assets/README/LinkedList_README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Java/LinkedList/LinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Java/LinkedList/LinkedList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Java/LinkedList/LinkedListTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Java/LinkedList/LinkedListTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
@@ -54,7 +52,7 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/assets/README/LinkedList_README.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
+            <state relative-caret-position="74">
               <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
             </state>
           </provider>
@@ -509,7 +507,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/README/LinkedList_README.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
+        <state relative-caret-position="74">
           <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
         </state>
       </provider>
