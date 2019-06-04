@@ -12,6 +12,11 @@ public class LinkedListTest {
     }
 
     @Test
+    public void intantiateEmptyList() {
+        LinkedList testing = new LinkedList();
+    }
+
+    @Test
     public void test_Insert() {
         LinkedList testing = new LinkedList();
         testing.insert(6);
@@ -30,7 +35,6 @@ public class LinkedListTest {
         testing.insert(1);
         assertEquals(1,testing.head.data);
         assertEquals(2,testing.head.next.data);
-
     }
 
     @Test
@@ -45,6 +49,17 @@ public class LinkedListTest {
     }
 
     @Test
+    public void test_Includes_False() {
+        LinkedList testing = new LinkedList();
+        testing.insert(6);
+        testing.insert(3);
+        testing.insert(4);
+        testing.insert(2);
+        testing.insert(1);
+        assertFalse("should return false when value searched for is not in the Linked List", testing.includes(7));
+    }
+
+    @Test
     public void test_Print() {
         LinkedList testing = new LinkedList();
         testing.insert(6);
@@ -54,4 +69,40 @@ public class LinkedListTest {
         testing.insert(1);
         assertEquals("1, 2, 4, 3, 6, null", testing.prints());
     }
+
+    @Test
+    public void test_Append() {
+        LinkedList testing = new LinkedList();
+        testing.append(6);
+        testing.append(3);
+        testing.append(4);
+        testing.append(2);
+        testing.append(1);
+        assertEquals("6, 3, 4, 2, 1, null", testing.prints());
+    }
+
+    @Test
+    public void test_Insert_Before() {
+        LinkedList testing = new LinkedList();
+        testing.insert(6);
+        testing.insert(3);
+        testing.insert(4);
+        testing.insert(2);
+        testing.insert(1);
+        testing.insertBefore(4,12);
+        assertEquals("1, 2, 12, 4, 3, 6, null", testing.prints());
+    }
+
+    @Test
+    public void test_Insert_After() {
+        LinkedList testing = new LinkedList();
+        testing.insert(6);
+        testing.insert(3);
+        testing.insert(4);
+        testing.insert(2);
+        testing.insert(1);
+        testing.insertAfter(4,12);
+        assertEquals("1, 2, 4, 12, 3, 6, null", testing.prints());
+    }
+
 }
