@@ -22,7 +22,7 @@ Insert has a Big O(1). All the other methods have a Big O(n)
 
 
 ## Solution
-- ![](../img/LinkedList.jpeg)
+- ![](../img/LinkedLink.jpeg)
 
 - [Linked List Code](../../src/main/java/Java/LinkedList/LinkedList.java)
 
