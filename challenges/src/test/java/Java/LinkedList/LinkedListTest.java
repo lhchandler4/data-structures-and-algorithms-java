@@ -89,8 +89,8 @@ public class LinkedListTest {
         testing.insert(4);
         testing.insert(2);
         testing.insert(1);
-        testing.insertBefore(4,12);
-        assertEquals("1, 2, 12, 4, 3, 6, null", testing.prints());
+        testing.insertBefore(1,12);
+        assertEquals("12, 1, 2, 4, 3, 6, null", testing.prints());
     }
 
     @Test
@@ -101,8 +101,8 @@ public class LinkedListTest {
         testing.insert(4);
         testing.insert(2);
         testing.insert(1);
-        testing.insertAfter(4,12);
-        assertEquals("1, 2, 4, 12, 3, 6, null", testing.prints());
+        testing.insertAfter(6,12);
+        assertEquals("1, 2, 4, 3, 6, 12, null", testing.prints());
     }
 
 }
