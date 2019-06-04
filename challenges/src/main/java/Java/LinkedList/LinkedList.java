@@ -68,6 +68,9 @@ public class LinkedList {
                     if (prev != null) {
                         prev.next = n;
                     }
+                    if(head.data == x){
+                        this.head = n;
+                    }
                     return;
                 }
                 prev = current;
