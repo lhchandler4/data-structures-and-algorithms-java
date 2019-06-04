@@ -15,6 +15,8 @@ Insert has a big O of 1. Includes has a big O of n. Print also has a big O of n.
 3. print does not take in any values but returns the values of all the nodes in a linked list
 
 ## Solution
+![](../img/LinkedList.jpeg)
+
 - [Linked List Code](../../src/main/java/Java/LinkedList/LinkedList.java)
 
 - [Linked List Test](../../src/test/java/Java/LinkedList/LinkedListTest.java)
