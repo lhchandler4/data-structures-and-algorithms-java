@@ -2,7 +2,7 @@
 Linked Lists are a data structure that offer certain advantages over array lists
 
 ## Challenge
-The challenge was to create three methods. Insert, Includes, Print, Append, InsertBefore, InsertAfter, InsertNFromTheEnd
+The challenge was to create seven methods. Insert, Includes, Print, Append, InsertBefore, InsertAfter, InsertNFromTheEnd
 
 ## Approach & Efficiency
 Insert has a Big O(1). All the other methods have a Big O(n)
