@@ -8,4 +8,6 @@
 
 ## Week 2
 
-- [Day 1 : Linked List:](./assets/README/LinkedList_README.md)
+- [Day 1 & 2 : Linked List:](./assets/README/LinkedList_README.md)
+
+

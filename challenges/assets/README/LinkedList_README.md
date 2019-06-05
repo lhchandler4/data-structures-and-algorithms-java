@@ -2,7 +2,7 @@
 Linked Lists are a data structure that offer certain advantages over array lists
 
 ## Challenge
-The challenge was to create three methods. Insert, Includes, Print, Append, InsertBefore, InsertAfter
+The challenge was to create seven methods. Insert, Includes, Print, Append, InsertBefore, InsertAfter, InsertNFromTheEnd
 
 ## Approach & Efficiency
 Insert has a Big O(1). All the other methods have a Big O(n)
@@ -20,9 +20,13 @@ Insert has a Big O(1). All the other methods have a Big O(n)
 
 6. insert after will insert a given value after another given value if it is in the linked list
 
+7. insert n from the end will take in an integer k and return the value at the position k places from the end
+
 
 ## Solution
-- ![](../img/LinkedLink.jpeg)
+
+![](../img/LinkedList.jpeg)
+![](../img/InsertAtNFromEnd.jpeg)
 
 - [Linked List Code](../../src/main/java/Java/LinkedList/LinkedList.java)
 
