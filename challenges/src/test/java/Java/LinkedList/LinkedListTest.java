@@ -105,4 +105,42 @@ public class LinkedListTest {
         assertEquals("1, 2, 4, 3, 6, 12, null", testing.prints());
     }
 
+    @Test(expected = NullPointerException.class)
+    public void N_from_the_end_empty(){
+        LinkedList testing = new LinkedList();
+        testing.returnNfromTheEnd(0);
+    }
+
+    @Test(expected = IllegalArgumentException.class)
+    public void test_N_from_end_k_is_negative(){
+        LinkedList testing = new LinkedList();
+        testing.insert(18);
+        testing.insert(41);
+        testing.insert(94);
+        testing.insert(23);
+        testing.returnNfromTheEnd(-8);
+    }
+
+    @Test
+    public void test_N_from_end(){
+        LinkedList testing = new LinkedList();
+        testing.insert(18);
+        testing.insert(41);
+        testing.insert(94);
+        testing.insert(23);
+        assertEquals(94, testing.returnNfromTheEnd(2));
+    }
+
+    @Test
+    public void N_From_the_end_begin(){
+        LinkedList testing = new LinkedList();
+        testing.insert(5);
+        testing.insert(12);
+        testing.insert(42);
+        testing.insert(11);
+        assertEquals(11, testing.returnNfromTheEnd(3));
+    }
+
+
+
 }
