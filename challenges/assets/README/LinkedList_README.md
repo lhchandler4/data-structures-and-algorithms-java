@@ -2,10 +2,11 @@
 Linked Lists are a data structure that offer certain advantages over array lists
 
 ## Challenge
-The challenge was to create seven methods. Insert, Includes, Print, Append, InsertBefore, InsertAfter, InsertNFromTheEnd
+The challenge was to create eight methods. Insert, Includes, Print, Append, InsertBefore, InsertAfter, InsertNFromTheEnd, LinkedListMergeList
 
 ## Approach & Efficiency
-Insert has a Big O(1). All the other methods have a Big O(n)
+For time, Insert has a Big O(1). All the other methods have a Big O(n).
+For space, all methods have a Big O(n).
 
 ## API
 1. insert will insert a new not with a given value which is an integer to the beginning of a linked list
@@ -22,10 +23,13 @@ Insert has a Big O(1). All the other methods have a Big O(n)
 
 7. insert n from the end will take in an integer k and return the value at the position k places from the end
 
+8. linked list merge lists takes in two linked lists and combines them into one in a zipper like manner
+
 
 ## Solution
 ![](../img/LinkedList.jpeg)
 ![](../img/InsertAtNFromEnd.jpeg)
+![](../img/ZipperList.jpg)
 
 - [Linked List Code](../../src/main/java/Java/LinkedList/LinkedList.java)
 

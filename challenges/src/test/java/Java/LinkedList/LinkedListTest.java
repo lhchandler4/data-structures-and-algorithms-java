@@ -141,6 +141,61 @@ public class LinkedListTest {
         assertEquals(11, testing.returnNfromTheEnd(3));
     }
 
+    @Test
+    public void Zip_the_Lists_Same_Length(){
+        LinkedList ll1 = new LinkedList();
+        LinkedList ll2 = new LinkedList();
+        ll1.insert(12);
+        ll1.insert(14);
+        ll1.insert(16);
+        ll2.insert(13);
+        ll2.insert(15);
+        ll2.insert(17);
+        assertEquals("16, 17, 14, 15, 12, 13, null", LinkedList.mergeLists(ll1, ll2).prints());
+    }
 
+    @Test
+    public void Zip_the_Lists_Uneven_Lengths(){
+        LinkedList ll1 = new LinkedList();
+        LinkedList ll2 = new LinkedList();
+        ll1.insert(12);
+        ll1.insert(13);
+        ll2.insert(14);
+        ll2.insert(15);
+        ll2.insert(16);
+        ll2.insert(17);
+        assertEquals("13, 17, 12, 16, 15, 14, null", LinkedList.mergeLists(ll1, ll2).toString());
+    }
+
+    @Test
+    public void Zip_the_Lists_Uneven_Lengths_Reversed(){
+        LinkedList ll1 = new LinkedList();
+        LinkedList ll2 = new LinkedList();
+        ll1.insert(12);
+        ll1.insert(13);
+        ll1.insert(14);
+        ll1.insert(15);
+        ll1.insert(16);
+        ll2.insert(17);
+        assertEquals("16, 17, 15, 14, 13, 12, null", LinkedList.mergeLists(ll1, ll2).toString());
+    }
+
+    @Test
+    public void Zip_the_Lists_If__Empty(){
+        LinkedList ll1 = new LinkedList();
+        LinkedList nothingIsInIt = new LinkedList();
+        ll1.append(12);
+        ll1.append(9);
+        ll1.append(10);
+        System.out.println(ll1);
+        assertEquals("12, 9, 10, null", LinkedList.mergeLists(ll1, nothingIsInIt).prints());
+    }
+
+    @Test
+    public void Zip_the_Lists_If_Empty(){
+        LinkedList ll1 = new LinkedList();
+        LinkedList ll2 = new LinkedList();
+        assertEquals("Should return an empty list", "", LinkedList.mergeLists(ll1, ll2).prints());
+    }
 
 }

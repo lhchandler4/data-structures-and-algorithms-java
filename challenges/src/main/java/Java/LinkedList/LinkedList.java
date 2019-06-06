@@ -9,6 +9,10 @@ public class LinkedList {
         this.head = null;
     }
 
+    public Node getTheHead() {
+        return this.head;
+    }
+
     //Append a value to the end of a Linked List
     public Node append(int data) {
         Node newNode = new Node(data);
@@ -40,6 +44,20 @@ public class LinkedList {
             current = current.next;
         }
         return false;
+    }
+
+    //Print the Linked List's Values
+    @Override public String toString() {
+        Node current = this.head;
+        String answer = "";
+        while (current != null) {
+            answer += current.data + ", ";
+            current = current.next;
+            if(current == null){
+                answer += "null";
+            }
+        }
+        return answer;
     }
 
     //Print the Linked List's Values
@@ -127,5 +145,30 @@ public class LinkedList {
             return current.data;
         }
     }
+
+    //Merge two linked lists
+
+    public static LinkedList mergeLists(LinkedList ll1, LinkedList ll2){
+        //If either list is empty
+        Node llOneCurr = ll1.getTheHead();
+        Node llTwoCurr = ll2.getTheHead();
+        //Otherwise use
+        Node temporaryOne, temporaryTwo;
+        if (llOneCurr == null) return ll2;
+        if (llTwoCurr == null) return ll1;
+        //loop to reassign pointers
+        while (true) {
+            temporaryOne = llOneCurr.next;
+            temporaryTwo = llTwoCurr.next;
+            llOneCurr.next = llTwoCurr;
+            llOneCurr = temporaryOne;
+            if (llOneCurr == null) break;
+            llTwoCurr.next = llOneCurr;
+            llTwoCurr = temporaryTwo;
+            if (llTwoCurr == null) break;
+        }
+        return ll1;
+    }
+
 
 }

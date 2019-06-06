@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="14878be5-1913-4177-b134-4ae04f1aeed9" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/README/LinkedList_README.md" beforeDir="false" afterPath="$PROJECT_DIR$/assets/README/LinkedList_README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Java/LinkedList/LinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Java/LinkedList/LinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Java/LinkedList/LinkedListTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Java/LinkedList/LinkedListTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
@@ -26,26 +30,21 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Java/LinkedList/LinkedList.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="82">
-              <caret line="112" column="70" selection-start-line="112" selection-start-column="70" selection-end-line="112" selection-end-column="70" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/Java/LinkedList/LinkedListTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="109" column="46" lean-forward="true" selection-start-line="109" selection-start-column="46" selection-end-line="109" selection-end-column="46" />
+            <state relative-caret-position="201">
+              <caret line="162" column="35" lean-forward="true" selection-start-line="162" selection-start-column="35" selection-end-line="162" selection-end-column="36" />
+              <folding>
+                <element signature="e#178#179#0" expanded="true" />
+                <element signature="e#210#211#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/assets/README/LinkedList_README.md">
+        <entry file="file://$PROJECT_DIR$/src/test/java/Java/LinkedList/LinkedListTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="33" selection-start-line="4" selection-start-column="33" selection-end-line="4" selection-end-column="33" />
+            <state relative-caret-position="352">
+              <caret line="179" column="44" selection-start-line="179" selection-start-column="44" selection-end-line="179" selection-end-column="44" />
             </state>
           </provider>
         </entry>
@@ -76,10 +75,10 @@
         <option value="$PROJECT_DIR$/src/test/java/Java/BinarySearchTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/Java/LinkedListTest/LinkedListTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/Java/LinkedList/Node.java" />
+        <option value="$PROJECT_DIR$/assets/README/LinkedList_README.md" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/src/main/java/Java/LinkedList/LinkedList.java" />
         <option value="$PROJECT_DIR$/src/test/java/Java/LinkedList/LinkedListTest.java" />
-        <option value="$PROJECT_DIR$/assets/README/LinkedList_README.md" />
       </list>
     </option>
   </component>
@@ -188,8 +187,8 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -216,8 +215,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.LinkedListTest.test_N_from_end_k_is_negative">
-    <configuration name="LinkedListTest.N_From_the_end_begin" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.LinkedListTest">
+    <configuration name="LinkedListTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Java.test" />
       <extension name="coverage">
         <pattern>
@@ -227,13 +226,28 @@
       </extension>
       <option name="PACKAGE_NAME" value="Java.LinkedList" />
       <option name="MAIN_CLASS_NAME" value="Java.LinkedList.LinkedListTest" />
-      <option name="METHOD_NAME" value="N_From_the_end_begin" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LinkedListTest.Zip_the_Lists_If_Empty" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Java.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Java.LinkedList.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Java.LinkedList" />
+      <option name="MAIN_CLASS_NAME" value="Java.LinkedList.LinkedListTest" />
+      <option name="METHOD_NAME" value="Zip_the_Lists_If_Empty" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LinkedListTest.N_from_the_end_empty" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="LinkedListTest.Zip_the_Lists_Same_Length" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Java.test" />
       <extension name="coverage">
         <pattern>
@@ -243,13 +257,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="Java.LinkedList" />
       <option name="MAIN_CLASS_NAME" value="Java.LinkedList.LinkedListTest" />
-      <option name="METHOD_NAME" value="N_from_the_end_empty" />
+      <option name="METHOD_NAME" value="Zip_the_Lists_Same_Length" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LinkedListTest.test_Insert_After" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="LinkedListTest.Zip_the_Lists_Uneven_Lengths" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Java.test" />
       <extension name="coverage">
         <pattern>
@@ -259,13 +273,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="Java.LinkedList" />
       <option name="MAIN_CLASS_NAME" value="Java.LinkedList.LinkedListTest" />
-      <option name="METHOD_NAME" value="test_Insert_After" />
+      <option name="METHOD_NAME" value="Zip_the_Lists_Uneven_Lengths" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LinkedListTest.test_N_from_end" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="LinkedListTest.Zip_the_Lists_Uneven_Lengths_Reversed" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Java.test" />
       <extension name="coverage">
         <pattern>
@@ -275,23 +289,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="Java.LinkedList" />
       <option name="MAIN_CLASS_NAME" value="Java.LinkedList.LinkedListTest" />
-      <option name="METHOD_NAME" value="test_N_from_end" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LinkedListTest.test_N_from_end_k_is_negative" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Java.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Java.LinkedList.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Java.LinkedList" />
-      <option name="MAIN_CLASS_NAME" value="Java.LinkedList.LinkedListTest" />
-      <option name="METHOD_NAME" value="test_N_from_end_k_is_negative" />
+      <option name="METHOD_NAME" value="Zip_the_Lists_Uneven_Lengths_Reversed" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -299,11 +297,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.LinkedListTest.test_N_from_end_k_is_negative" />
-        <item itemvalue="JUnit.LinkedListTest.N_from_the_end_empty" />
-        <item itemvalue="JUnit.LinkedListTest.test_N_from_end" />
-        <item itemvalue="JUnit.LinkedListTest.N_From_the_end_begin" />
-        <item itemvalue="JUnit.LinkedListTest.test_Insert_After" />
+        <item itemvalue="JUnit.LinkedListTest" />
+        <item itemvalue="JUnit.LinkedListTest.Zip_the_Lists_Uneven_Lengths_Reversed" />
+        <item itemvalue="JUnit.LinkedListTest.Zip_the_Lists_Uneven_Lengths" />
+        <item itemvalue="JUnit.LinkedListTest.Zip_the_Lists_Same_Length" />
+        <item itemvalue="JUnit.LinkedListTest.Zip_the_Lists_If_Empty" />
       </list>
     </recent_temporary>
   </component>
@@ -321,42 +319,42 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="LinkedListTest_test_Insert_After - 2019.06.04 at 10h 39m 02s.xml">
-      <configuration name="LinkedListTest.test_Insert_After" configurationId="JUnit" />
+    <history-entry file="LinkedListTest_Zip_the_Lists_Same_Length - 2019.06.06 at 09h 08m 47s.xml">
+      <configuration name="LinkedListTest.Zip_the_Lists_Same_Length" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LinkedListTest_N_From_the_end_begin - 2019.06.05 at 09h 13m 54s.xml">
-      <configuration name="LinkedListTest.N_From_the_end_begin" configurationId="JUnit" />
+    <history-entry file="LinkedListTest_Zip_the_Lists_Same_Length - 2019.06.06 at 09h 09m 46s.xml">
+      <configuration name="LinkedListTest.Zip_the_Lists_Same_Length" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LinkedListTest_test_N_from_end - 2019.06.05 at 09h 22m 01s.xml">
-      <configuration name="LinkedListTest.test_N_from_end" configurationId="JUnit" />
+    <history-entry file="LinkedListTest_Zip_the_Lists_Same_Length - 2019.06.06 at 09h 11m 23s.xml">
+      <configuration name="LinkedListTest.Zip_the_Lists_Same_Length" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LinkedListTest_test_N_from_end - 2019.06.05 at 09h 24m 06s.xml">
-      <configuration name="LinkedListTest.test_N_from_end" configurationId="JUnit" />
+    <history-entry file="LinkedListTest_Zip_the_Lists_Same_Length - 2019.06.06 at 09h 11m 56s.xml">
+      <configuration name="LinkedListTest.Zip_the_Lists_Same_Length" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LinkedListTest_N_from_the_end_empty - 2019.06.05 at 09h 24m 11s.xml">
-      <configuration name="LinkedListTest.N_from_the_end_empty" configurationId="JUnit" />
+    <history-entry file="LinkedListTest_Zip_the_Lists_Same_Length - 2019.06.06 at 09h 12m 25s.xml">
+      <configuration name="LinkedListTest.Zip_the_Lists_Same_Length" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LinkedListTest_N_from_the_end_empty - 2019.06.05 at 09h 29m 05s.xml">
-      <configuration name="LinkedListTest.N_from_the_end_empty" configurationId="JUnit" />
+    <history-entry file="LinkedListTest_Zip_the_Lists_Same_Length - 2019.06.06 at 09h 12m 39s.xml">
+      <configuration name="LinkedListTest.Zip_the_Lists_Same_Length" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LinkedListTest_N_from_the_end_empty - 2019.06.05 at 09h 32m 35s.xml">
-      <configuration name="LinkedListTest.N_from_the_end_empty" configurationId="JUnit" />
+    <history-entry file="LinkedListTest_Zip_the_Lists_Same_Length - 2019.06.06 at 09h 13m 04s.xml">
+      <configuration name="LinkedListTest.Zip_the_Lists_Same_Length" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LinkedListTest_N_from_the_end_empty - 2019.06.05 at 09h 33m 06s.xml">
-      <configuration name="LinkedListTest.N_from_the_end_empty" configurationId="JUnit" />
+    <history-entry file="LinkedListTest_Zip_the_Lists_Same_Length - 2019.06.06 at 09h 14m 02s.xml">
+      <configuration name="LinkedListTest.Zip_the_Lists_Same_Length" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LinkedListTest_N_from_the_end_empty - 2019.06.05 at 09h 33m 52s.xml">
-      <configuration name="LinkedListTest.N_from_the_end_empty" configurationId="JUnit" />
+    <history-entry file="LinkedListTest_Zip_the_Lists_Same_Length - 2019.06.06 at 09h 14m 41s.xml">
+      <configuration name="LinkedListTest.Zip_the_Lists_Same_Length" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LinkedListTest_test_N_from_end_k_is_negative - 2019.06.05 at 09h 41m 50s.xml">
-      <configuration name="LinkedListTest.test_N_from_end_k_is_negative" configurationId="JUnit" />
+    <history-entry file="LinkedListTest_Zip_the_Lists_Uneven_Lengths - 2019.06.06 at 09h 21m 18s.xml">
+      <configuration name="LinkedListTest.Zip_the_Lists_Uneven_Lengths" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="2" y="23" width="1280" height="777" extended-state="6" />
+    <frame x="0" y="23" width="1280" height="777" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2197092" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22294022" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -366,7 +364,7 @@
       <window_info id="Learn" order="7" weight="0.32956383" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32930514" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32930514" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39879155" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -443,6 +441,24 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/assets/img/InsertAtNFromEnd.jpeg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/README/NFromEnd_README.md" />
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="16" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/README/LinkedList_README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Java/LinkedList/Node.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
@@ -450,37 +466,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/img/InsertAtNFromEnd.jpeg">
+    <entry file="file://$PROJECT_DIR$/assets/img/ZipperList.jpg">
       <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/README/NFromEnd_README.md">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Java/LinkedList/LinkedList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="82">
-          <caret line="112" column="70" selection-start-line="112" selection-start-column="70" selection-end-line="112" selection-end-column="70" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        <state relative-caret-position="201">
+          <caret line="162" column="35" lean-forward="true" selection-start-line="162" selection-start-column="35" selection-end-line="162" selection-end-column="36" />
+          <folding>
+            <element signature="e#178#179#0" expanded="true" />
+            <element signature="e#210#211#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/Java/LinkedList/LinkedListTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="109" column="46" lean-forward="true" selection-start-line="109" selection-start-column="46" selection-end-line="109" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/README/LinkedList_README.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="33" selection-start-line="4" selection-start-column="33" selection-end-line="4" selection-end-column="33" />
+        <state relative-caret-position="352">
+          <caret line="179" column="44" selection-start-line="179" selection-start-column="44" selection-end-line="179" selection-end-column="44" />
         </state>
       </provider>
     </entry>
