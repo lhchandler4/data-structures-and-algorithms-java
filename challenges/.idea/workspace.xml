@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="14878be5-1913-4177-b134-4ae04f1aeed9" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/README/LinkedList_README.md" beforeDir="false" afterPath="$PROJECT_DIR$/assets/README/LinkedList_README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Java/LinkedList/LinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Java/LinkedList/LinkedList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Java/LinkedList/LinkedListTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Java/LinkedList/LinkedListTest.java" afterDir="false" />
-    </list>
+    <list default="true" id="14878be5-1913-4177-b134-4ae04f1aeed9" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
     <ignored path="$PROJECT_DIR$/out/" />
@@ -43,8 +37,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/Java/LinkedList/LinkedListTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="352">
-              <caret line="179" column="44" selection-start-line="179" selection-start-column="44" selection-end-line="179" selection-end-column="44" />
+            <state relative-caret-position="135">
+              <caret line="10" column="39" lean-forward="true" selection-start-line="10" selection-start-column="39" selection-end-line="10" selection-end-column="39" />
             </state>
           </provider>
         </entry>
@@ -319,15 +313,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="LinkedListTest_Zip_the_Lists_Same_Length - 2019.06.06 at 09h 08m 47s.xml">
-      <configuration name="LinkedListTest.Zip_the_Lists_Same_Length" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="LinkedListTest_Zip_the_Lists_Same_Length - 2019.06.06 at 09h 09m 46s.xml">
-      <configuration name="LinkedListTest.Zip_the_Lists_Same_Length" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="LinkedListTest_Zip_the_Lists_Same_Length - 2019.06.06 at 09h 11m 23s.xml">
-      <configuration name="LinkedListTest.Zip_the_Lists_Same_Length" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="LinkedListTest_Zip_the_Lists_Same_Length - 2019.06.06 at 09h 11m 56s.xml">
       <configuration name="LinkedListTest.Zip_the_Lists_Same_Length" configurationId="JUnit" />
     </history-entry>
@@ -348,6 +333,15 @@
     </history-entry>
     <history-entry file="LinkedListTest_Zip_the_Lists_Uneven_Lengths - 2019.06.06 at 09h 21m 18s.xml">
       <configuration name="LinkedListTest.Zip_the_Lists_Uneven_Lengths" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LinkedListTest_Zip_the_Lists_Uneven_Lengths_Reversed - 2019.06.06 at 09h 22m 52s.xml">
+      <configuration name="LinkedListTest.Zip_the_Lists_Uneven_Lengths_Reversed" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LinkedListTest_Zip_the_Lists_Uneven_Lengths_Reversed - 2019.06.06 at 09h 23m 19s.xml">
+      <configuration name="LinkedListTest.Zip_the_Lists_Uneven_Lengths_Reversed" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LinkedListTest - 2019.06.06 at 09h 23m 27s.xml">
+      <configuration name="LinkedListTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -482,8 +476,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/Java/LinkedList/LinkedListTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="179" column="44" selection-start-line="179" selection-start-column="44" selection-end-line="179" selection-end-column="44" />
+        <state relative-caret-position="135">
+          <caret line="10" column="39" lean-forward="true" selection-start-line="10" selection-start-column="39" selection-end-line="10" selection-end-column="39" />
         </state>
       </provider>
     </entry>
