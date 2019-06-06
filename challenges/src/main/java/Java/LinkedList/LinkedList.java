@@ -149,11 +149,11 @@ public class LinkedList {
     //Merge two linked lists
 
     public static LinkedList mergeLists(LinkedList ll1, LinkedList ll2){
-        //If either list is empty
         Node llOneCurr = ll1.getTheHead();
         Node llTwoCurr = ll2.getTheHead();
-        //Otherwise use
-        Node temporaryOne, temporaryTwo;
+        Node temporaryOne;
+        Node temporaryTwo;
+        ////If either list is empty
         if (llOneCurr == null) return ll2;
         if (llTwoCurr == null) return ll1;
         //loop to reassign pointers
