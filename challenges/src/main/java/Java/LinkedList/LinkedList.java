@@ -158,6 +158,7 @@ public class LinkedList {
         if (llTwoCurr == null) return ll1;
         //loop to reassign pointers
         while (true) {
+            //true is the same thing as saying != null
             temporaryOne = llOneCurr.next;
             temporaryTwo = llTwoCurr.next;
             llOneCurr.next = llTwoCurr;
