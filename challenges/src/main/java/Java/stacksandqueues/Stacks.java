@@ -1,5 +1,7 @@
 package Java.stacksandqueues;
 
+import java.util.EmptyStackException;
+
 public class Stacks {
     private Node top;
     private int size;
@@ -24,6 +26,7 @@ public class Stacks {
     //methods
     public int peek(){
         if(nothingHere() == true){
+//            throw new EmptyStackException;
             System.out.println("The stack seems to be empty");
         }
         return top.data;
@@ -31,6 +34,7 @@ public class Stacks {
 
     public int pop(){
         if(nothingHere() == true) {
+//            throw new EmptyStackException()
             System.out.println("The stack seems to be empty");
         }
         int data = top.data;
