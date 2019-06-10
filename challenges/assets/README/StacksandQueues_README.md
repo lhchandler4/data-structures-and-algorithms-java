@@ -8,6 +8,9 @@
 
 3. Queue class that has an enqueue method, a dequeue method, and a peek method.
 
+## Acknowledgements
+1. Thanks to Will Fritts for helping me with enqueue
+
 ## Solution
 - [Node Code](../../src/main/java/Java/stacksandqueues/Node.java)
 
