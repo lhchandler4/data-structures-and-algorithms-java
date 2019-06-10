@@ -47,6 +47,7 @@ public class Queues {
             last = q;
             size++;
         } else {
+            // can't go from the dugout to the batters box, gotta go to the on deck circle first
             last.next = q;
             last = q;
             size++;
