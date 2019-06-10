@@ -1,5 +1,7 @@
 package Java.stacksandqueues;
 
+import java.util.EmptyStackException;
+
 public class Queues {
     private Node front;
     private Node last;
@@ -25,6 +27,7 @@ public class Queues {
     //methods
     public int peek(){
         if(nothingHere() == true){
+//            throw new EmptyStackException()
             System.out.println("The queue seems to be empty");
         }
         return front.data;
@@ -32,6 +35,7 @@ public class Queues {
 
     public int dequeue(){
         if(nothingHere() == true){
+//            throw new EmptyStackException()
             System.out.println("The queue seems to be empty");
         }
         int data = front.data;
