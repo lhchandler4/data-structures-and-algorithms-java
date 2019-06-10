@@ -1,6 +1,9 @@
 package Java.stacksandqueues;
 
 import org.junit.Test;
+
+import java.util.EmptyStackException;
+
 import static org.junit.Assert.*;
 
 public class StacksTest {
@@ -11,6 +14,11 @@ public class StacksTest {
         testing.push(55);
         testing.push(27);
         assertTrue(testing.getSize() == 3);
+    }
+    @Test (expected = EmptyStackException.class)
+    public void test_empty(){
+        Stacks testing = new Stacks();
+        testing.pop();
     }
 
     @Test

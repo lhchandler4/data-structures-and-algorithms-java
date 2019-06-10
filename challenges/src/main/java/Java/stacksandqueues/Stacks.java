@@ -26,16 +26,16 @@ public class Stacks {
     //methods
     public int peek(){
         if(nothingHere() == true){
-//            throw new EmptyStackException;
-            System.out.println("The stack seems to be empty");
+            throw new EmptyStackException();
+//            System.out.println("The stack seems to be empty");
         }
         return top.data;
     }
 
     public int pop(){
         if(nothingHere() == true) {
-//            throw new EmptyStackException()
-            System.out.println("The stack seems to be empty");
+            throw new EmptyStackException();
+//            System.out.println("The stack seems to be empty");
         }
         int data = top.data;
         top = top.next;

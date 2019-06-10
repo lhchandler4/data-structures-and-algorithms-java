@@ -27,16 +27,15 @@ public class Queues {
     //methods
     public int peek(){
         if(nothingHere() == true){
-//            throw new EmptyStackException()
-            System.out.println("The queue seems to be empty");
+            throw new EmptyStackException();
+//            System.out.println("The queue seems to be empty");
         }
         return front.data;
     }
 
     public int dequeue(){
         if(nothingHere() == true){
-//            throw new EmptyStackException()
-            System.out.println("The queue seems to be empty");
+            throw new EmptyStackException();
         }
         int data = front.data;
         front = front.next;
