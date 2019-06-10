@@ -4,12 +4,12 @@ import java.util.EmptyStackException;
 
 public class Queues {
     private Node front;
-    private Node last;
+    private Node back;
     private int size;
 
     public void Queue(){
         this.front = null;
-        this.last = null;
+        this.back = null;
         this.size = 0;
     }
     public int getSize() {
@@ -47,12 +47,12 @@ public class Queues {
         Node q = new Node(data);
         if(nothingHere() == true){
             front = q;
-            last = q;
+            back = q;
             size++;
         } else {
             // can't go from the dugout to the batters box, gotta go to the on deck circle first
-            last.next = q;
-            last = q;
+            back.next = q;
+            back = q;
             size++;
         }
     }
