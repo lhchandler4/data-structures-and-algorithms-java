@@ -10,4 +10,7 @@
 
 - [Day 1 & 2 & 3: Linked List:](./assets/README/LinkedList_README.md)
 
+## Week 3
+- [Day 1: Stacks and Queues](./assets/README/StacksandQueues_README.md)
+
 
