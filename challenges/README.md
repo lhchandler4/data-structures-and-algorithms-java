@@ -13,4 +13,6 @@
 ## Week 3
 - [Day 1: Stacks and Queues](./assets/README/StacksandQueues_README.md)
 
+- [Day 2: PseudoQueue](./assets/README/PseudoQueue_README.md)
+
 
