@@ -3,7 +3,7 @@ package Java.stacksandqueues;
 import java.util.EmptyStackException;
 
 public class Stacks {
-    private Node top;
+    public Node top;
     private int size;
 
     public Stacks(){
@@ -34,8 +34,8 @@ public class Stacks {
 
     public int pop(){
         if(nothingHere() == true) {
-            throw new EmptyStackException();
-//            System.out.println("The stack seems to be empty");
+//            throw new EmptyStackException();
+            System.out.println("The stack seems to be empty");
         }
         int data = top.data;
         top = top.next;
