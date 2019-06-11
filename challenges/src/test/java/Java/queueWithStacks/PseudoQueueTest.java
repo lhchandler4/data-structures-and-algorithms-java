@@ -1,9 +1,6 @@
 package Java.queueWithStacks;
 
 import org.junit.Test;
-
-import java.util.EmptyStackException;
-
 import static org.junit.Assert.*;
 
 public class PseudoQueueTest {
@@ -39,5 +36,18 @@ public class PseudoQueueTest {
         testing.enqueue(109);
         testing.enqueue(55);
         assertTrue(testing.dequeue() == 109);
+    }
+
+    @Test
+    public void testEnqueue_and_deque_and_enqueue(){
+        PseudoQueue testing = new PseudoQueue();
+        testing.enqueue(19);
+        testing.enqueue(29);
+        testing.enqueue(39);
+        testing.dequeue();
+        testing.dequeue();
+        testing.dequeue();
+        testing.enqueue(46);
+        assertEquals(46, testing.stackUno.peek());
     }
 }

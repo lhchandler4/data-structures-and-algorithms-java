@@ -12,10 +12,10 @@ public class PseudoQueue {
         }
 
         public int dequeue() {
-           while(stackUno.nothingHere()){
+           while(stackUno.nothingHere() == false){
                stackDos.push(stackUno.pop());
            } int answer = (stackDos.pop());
-           while(stackDos.nothingHere()){
+           while(stackDos.nothingHere() == false){
                stackUno.push(stackDos.pop());
            }return answer;
         }
