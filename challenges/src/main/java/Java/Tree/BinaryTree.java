@@ -4,7 +4,7 @@ import java.util.ArrayList;
 
 public class BinaryTree<T> {
 
-    TreeNode<T> rootNode;
+    public TreeNode<T> rootNode;
 
     public TreeNode<T> getRootNode() {
         return rootNode;
@@ -14,7 +14,7 @@ public class BinaryTree<T> {
         this.rootNode = rootNode;
     }
 
-    BinaryTree(){
+    public BinaryTree(){
         rootNode = null;
     }
 

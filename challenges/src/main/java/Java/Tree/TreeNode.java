@@ -1,10 +1,10 @@
 package Java.Tree;
 
 public class TreeNode<T> {
-    T data;
+    public T data;
 
-    TreeNode<T> leftChild;
-    TreeNode<T> rightChild;
+    public TreeNode<T> leftChild;
+    public TreeNode<T> rightChild;
 
     public TreeNode(T data){
         this.data = data;
