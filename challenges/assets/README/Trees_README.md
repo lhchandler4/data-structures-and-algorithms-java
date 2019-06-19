@@ -8,12 +8,16 @@
 
 3. Create a BinarySearchTree class. Define a method named add that accepts a value, and adds a new node with that value in the correct location in the binary search tree. Define a method named contains that accepts a value, and returns a boolean indicating whether or not the value is in the tree at least once.
 
+4. Create a method (in the BinaryTree class) that will traverse and print the values of a tree on a breadth first basis
+
 ## Acknowledgements
 
 - Derek Banas (https://www.youtube.com/watch?v=M6lYob8STMI)
 - Steven Chu for all his help with testing and understanding the recursive traversing methods
+- geeksforgeeks for giving me direction with the breadthfirst traversal and will fritts for help testing
 
 ## Solution
+![](../img/BF.jpeg)
 
 - [TreeNode Code](../../src/main/java/Java/Tree/TreeNode.java)
 

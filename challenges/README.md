@@ -22,4 +22,6 @@
 
 - [Day 2: FizzBuzzTree](./assets/README/FizzBuzzTree_README.md)
 
+- [Day 3: BreadthFirstTraversal](./assets/README/Trees_README.md)
+
 
