@@ -10,14 +10,19 @@
 
 4. Create a method (in the BinaryTree class) that will traverse and print the values of a tree on a breadth first basis
 
+5. Create a method that taks in a Binary Tree and will return the max value
+
 ## Acknowledgements
 
 - Derek Banas (https://www.youtube.com/watch?v=M6lYob8STMI)
 - Steven Chu for all his help with testing and understanding the recursive traversing methods
 - geeksforgeeks for giving me direction with the breadthfirst traversal and will fritts for help testing
+- John Winters for helping with maxVal
 
 ## Solution
 ![](../img/BF.jpeg)
+
+![](../img/maxVal.jpeg)
 
 - [TreeNode Code](../../src/main/java/Java/Tree/TreeNode.java)
 
