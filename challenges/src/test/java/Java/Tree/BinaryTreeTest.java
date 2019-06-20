@@ -2,8 +2,6 @@ package Java.Tree;
 
 import org.junit.Before;
 import org.junit.Test;
-
-import javax.print.DocFlavor;
 import java.util.ArrayList;
 import java.util.Arrays;
 
@@ -95,5 +93,15 @@ public class BinaryTreeTest {
         assertEquals(expectedOutput, tonga.breadthFirst(testing));
     }
 
+    @Test
+    public void testMaxVal(){
+        assertEquals(6, testing.findMaxValue(testing));
+    }
+
+    @Test(expected = IllegalArgumentException.class)
+    public void testErrorMaxVal(){
+        BinaryTree tonga = new BinaryTree();
+        tonga.findMaxValue(tonga);
+    }
 
 }

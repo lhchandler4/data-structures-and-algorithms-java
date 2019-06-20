@@ -94,7 +94,7 @@ public class BinaryTree<T> {
 //        }
 //    }
 
-    static String breadthFirst(BinaryTree input) {
+    public static String breadthFirst(BinaryTree input) {
         if(input.rootNode == null)
             return "null";
 
@@ -119,5 +119,22 @@ public class BinaryTree<T> {
                 levelCount--;
             }
         }return m;
+    }
+
+    public int findMaxValue(BinaryTree input) {
+        if(input.rootNode == null) throw new IllegalArgumentException();
+        return findMaxValue(input.rootNode);
+    }
+
+    private int findMaxValue(TreeNode input) {
+        if (input == null)
+            return Integer.MIN_VALUE;
+        else {
+            int max = (int)input.data;
+            int lMax = findMaxValue(input.leftChild);
+            int rMax = findMaxValue(input.rightChild);
+            max = Math.max(Math.max(max, lMax), rMax);
+            return max;
+        }
     }
 }
