@@ -24,4 +24,7 @@
 
 - [Day 3: BreadthFirstTraversal](./assets/README/Trees_README.md)
 
+## Week 6
+- [Day 1: InsertionSort](/assets/README/InsertionSort_README.md)
+
 
