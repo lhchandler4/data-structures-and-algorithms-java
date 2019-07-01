@@ -21,7 +21,7 @@
   - https://www.hackerearth.com/practice/algorithms/sorting/insertion-sort/tutorial/
 - Interview Bit
   - https://www.interviewbit.com/tutorial/insertion-sort-algorithm/
- 
+- Will Fritts for helping me understand it a little better high level
 
 ## Code
 [Insertion Sort Code](../../src/main/java/Java/InsertionSort/InsertionSort.java)
