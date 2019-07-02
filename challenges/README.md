@@ -27,4 +27,6 @@
 ## Week 6
 - [Day 1: InsertionSort](/assets/README/InsertionSort_README.md)
 
+- [Day 2: MergeSort](/assets/README/MergeSort_README.md)
+
 
