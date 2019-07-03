@@ -13,7 +13,6 @@ array of integers and divide it into n sub arrays. Then merge those sub arrays b
 - Pseudo Code it out.
 - Write the real code, and then test it.
 - Think of the edge cases for insertion sort.
-- Stress that insertion sort is mainly useful when the array size is smaller.
 
 ## Whiteboard
 ![](../img/mergeSort.jpeg)

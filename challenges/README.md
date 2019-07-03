@@ -29,4 +29,6 @@
 
 - [Day 2: MergeSort](/assets/README/MergeSort_README.md)
 
+- [Day 3: QuickSort](/assets/README/QuickSort_README.md)
+
 
