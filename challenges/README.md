@@ -25,10 +25,10 @@
 - [Day 3: BreadthFirstTraversal](./assets/README/Trees_README.md)
 
 ## Week 6
-- [Day 1: InsertionSort](/assets/README/InsertionSort_README.md)
+- [Day 1: InsertionSort](./assets/README/InsertionSort_README.md)
 
-- [Day 2: MergeSort](/assets/README/MergeSort_README.md)
+- [Day 2: MergeSort](./assets/README/MergeSort_README.md)
 
-- [Day 3: QuickSort](/assets/README/QuickSort_README.md)
+- [Day 3: QuickSort](./assets/README/QuickSort_README.md)
 
 
