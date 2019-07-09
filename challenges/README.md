@@ -31,4 +31,6 @@
 
 - [Day 3: QuickSort](./assets/README/QuickSort_README.md)
 
+## Week 7
+- [Day 1: HashTables(add, get, contains)](./assets/README/HashTables_README.md)
 
