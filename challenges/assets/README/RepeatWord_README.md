@@ -9,8 +9,10 @@
 - Space: O(2n) which is O(n)
 - Time: O(1)
 
-## API and References
+## API and Acknowledgements
+- repeatWord(String input)
 - https://stackoverflow.com/questions/18830813/how-can-i-remove-punctuation-from-input-text-in-java
+- Stephen Chu for Regex assistance
 
 ## Whiteboard Picture
 ![](../img/RepeatWord.jpeg)
