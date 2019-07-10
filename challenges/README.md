@@ -34,3 +34,5 @@
 ## Week 7
 - [Day 1: HashTables(add, get, contains)](./assets/README/HashTables_README.md)
 
+- [Day 2: RepeatWord](./assets/README/RepeatWord_README.md)
+
