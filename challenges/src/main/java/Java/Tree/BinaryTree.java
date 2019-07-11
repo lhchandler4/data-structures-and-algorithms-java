@@ -1,7 +1,5 @@
 package Java.Tree;
 
-import Java.stacksandqueues.Queues;
-
 import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.Queue;
@@ -81,18 +79,6 @@ public class BinaryTree<T> {
         }
         helperArrLi.add(node.data);
     }
-
-//    public void breadthFirst(BinaryTree input) {
-//        Queue<TreeNode> q = new LinkedList<>();
-//        //enqueue
-//        q.add(input.rootNode);
-//        //dequeue
-//        while(q != null){
-//            System.out.println(q.remove());
-//            q.add(input.rootNode.leftChild);
-//            q.add(input.rootNode.rightChild);
-//        }
-//    }
 
     public static String breadthFirst(BinaryTree input) {
         if(input.rootNode == null)
