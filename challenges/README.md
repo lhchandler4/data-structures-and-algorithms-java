@@ -36,3 +36,5 @@
 
 - [Day 2: RepeatWord](./assets/README/RepeatWord_README.md)
 
+- [Day 3: TreeIntersection](./assets/README/TreeIntersection_README.md)
+
