@@ -54,7 +54,7 @@ public class TreeIntersectionTest {
         BinaryTree<Integer> TreeThree = new BinaryTree<>();
         TreeIntersection.tree_intersection(TreeThree, TreeTwo);
     }
-    
+
     @Test
     public void testThe_Tree_Intersection() {
         ArrayList<Integer> expectedOutput = new ArrayList<>(Arrays.asList(2, 99, 56, 634));

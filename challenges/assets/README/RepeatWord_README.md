@@ -10,8 +10,9 @@
 - Time: O(1)
 
 ## API and Acknowledgements
-- tree_intersection(BinaryTree<Integer> treeOne, BinaryTree<Integer> treeTwo)
-- Will Fritts for helping me with the function and debugging my testing
+- repeatWord(String input)
+- https://stackoverflow.com/questions/18830813/how-can-i-remove-punctuation-from-input-text-in-java
+- Stephen Chu for Regex assistance
 
 ## Whiteboard Picture
 ![](../img/RepeatWord.jpeg)

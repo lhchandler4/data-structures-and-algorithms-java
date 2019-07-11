@@ -10,7 +10,8 @@
 - Time: O(n)
 
 ## API and Acknowledgements
-- 
+- tree_intersection(BinaryTree<Integer> treeOne, BinaryTree<Integer> treeTwo)
+- Will Fritts for all of the help with debugging the testing and the method 
 
 ## Whiteboard Picture
 ![](../img/TreeIntersection.jpg)
