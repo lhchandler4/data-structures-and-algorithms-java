@@ -38,3 +38,6 @@
 
 - [Day 3: TreeIntersection](./assets/README/TreeIntersection_README.md)
 
+## Week 8
+- [Day 1: HashTables Left Join](./assets/README/HashTables_README.md)
+
