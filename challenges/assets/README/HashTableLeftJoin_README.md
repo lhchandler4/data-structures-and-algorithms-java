@@ -13,7 +13,8 @@
 
 ## API and Acknowledgements
 - leftJoin(HashMap<String, String> leftHashMap, HashMap<String, String> rightHashMap)
-- Thank you to Stephen Chu for help with conceptualization and testing
+- Thank you to Stephen Chu for help with conceptualization and testing and generally pointing me in the right direction
+- https://stackoverflow.com/questions/25593733/left-join-of-two-different-java-objects
 
 ## Whiteboard Image
 ![](../img/HashMapLeftJoin.jpeg)
