@@ -2,7 +2,9 @@ package Java.Graph;
 
 import org.junit.Test;
 
+import java.util.ArrayList;
 import java.util.HashSet;
+import java.util.LinkedList;
 
 import static org.junit.Assert.*;
 
@@ -59,7 +61,7 @@ public class GraphTest {
         Node one = testing.addNode("one");
         Node two = testing.addNode("two");
 
-        assertTrue(one.addNeighbor(two, 108));
+        assertTrue(one.addNeighbor(two));
     }
 
     @Test
@@ -104,6 +106,54 @@ public class GraphTest {
         for(Object edge: one.neighbors) {
             Edge e = (Edge) edge;
             assertEquals(e.weight, 25);
+        }
+    }
+
+    @Test
+    public void testingBreadthTraversal() {
+        Graph testing = new Graph();
+        Node one = testing.addNode("one");
+        Node two = testing.addNode("two");
+        Node three = testing.addNode("three");
+        Node four = testing.addNode("four");
+        one.addNeighbor(two);
+        one.addNeighbor(four);
+        four.addNeighbor(two);
+        two.addNeighbor(three);
+        ArrayList<String> expected = new ArrayList<>();
+        expected.add("four");
+        expected.add("one");
+        expected.add("two");
+        expected.add("three");
+
+        ArrayList result = testing.breadthFirstTraversal(four);
+        for(int i=0; i<expected.size(); i++){
+            System.out.println(((Node) result.get(i)).data);
+            assertEquals(expected.get(i), ((Node) result.get(i)).data);
+        }
+    }
+
+    @Test
+    public void testingDepthTraversal() {
+        Graph testing = new Graph();
+        Node one = testing.addNode("one");
+        Node two = testing.addNode("two");
+        Node three = testing.addNode("three");
+        Node four = testing.addNode("four");
+        one.addNeighbor(two);
+        one.addNeighbor(four);
+        four.addNeighbor(two);
+        two.addNeighbor(three);
+        ArrayList<String> expected = new ArrayList<>();
+        expected.add("four");
+        expected.add("two");
+        expected.add("three");
+        expected.add("one");
+
+        ArrayList result = testing.depthFirstTraversal(four);
+        for(int i=0; i<expected.size(); i++){
+            System.out.println(((Node) result.get(i)).data);
+            assertEquals(expected.get(i), ((Node) result.get(i)).data);
         }
     }
 
