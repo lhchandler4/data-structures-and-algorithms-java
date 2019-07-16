@@ -94,4 +94,17 @@ public class GraphTest {
         assertEquals(5,  testing.getNodeNum());
     }
 
+    @Test
+    public void neighborsAndWeights(){
+        Graph testing = new Graph();
+        Node one = testing.addNode("one");
+        Node two = testing.addNode("two");
+        one.addNeighbor(two, 25);
+        assertEquals(one.getNeighbors().size(), 1);
+        for(Object edge: one.neighbors) {
+            Edge e = (Edge) edge;
+            assertEquals(e.weight, 25);
+        }
+    }
+
 }

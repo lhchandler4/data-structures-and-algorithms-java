@@ -6,29 +6,29 @@ import java.util.Queue;
 
 public class Graph<T> {
 
-    public HashSet<Node<T>> vertices;
+    public HashSet<Node<T>> nodes;
 
     public Graph(){
-        this.vertices = new HashSet<>();
+        this.nodes = new HashSet<>();
     }
 
     public Node<T>addNode(T data){
         Node node = new Node(data);
-        this.vertices.add(node);
+        this.nodes.add(node);
         return node;
     }
 
     public boolean addEdge(Node<T> source, Node<T> destination){
-        if(this.vertices.contains(source) && this.vertices.contains(destination)){
-            this.vertices.add(source);
-            this.vertices.add(destination);
+        if(this.nodes.contains(source) && this.nodes.contains(destination)){
+            this.nodes.add(source);
+            this.nodes.add(destination);
             return true;
         }
         return false;
     }
 
     public HashSet<Node<T>>getNodes(){
-        return this.vertices;
+        return this.nodes;
     }
 
     public HashSet<Edge> getNeighbors(Node<T> node){
@@ -36,7 +36,7 @@ public class Graph<T> {
     }
 
     public int getNodeNum(){
-        return this.vertices.size();
+        return this.nodes.size();
     }
 
 //    public int size(Node startingNode){
