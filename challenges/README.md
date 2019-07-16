@@ -39,7 +39,7 @@
 - [Day 3: TreeIntersection](./assets/README/TreeIntersection_README.md)
 
 ## Week 8
-- [Day 1: HashTables Left Join](./assets/README/HashTables_README.md)
+- [Day 1: HashTables Left Join](./assets/README/HashTableLeftJoin_README.md)
 
 - [Day 1: Graph Implementation](./assets/README/Graph_README.md)
 

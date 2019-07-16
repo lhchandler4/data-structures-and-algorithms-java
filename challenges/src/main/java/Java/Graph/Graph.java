@@ -1,8 +1,7 @@
 package Java.Graph;
 
-import java.util.HashSet;
-import java.util.LinkedList;
-import java.util.Queue;
+import java.lang.reflect.Array;
+import java.util.*;
 
 public class Graph<T> {
 
@@ -39,22 +38,42 @@ public class Graph<T> {
         return this.nodes.size();
     }
 
-//    public int size(Node startingNode){
-//        HashSet<Node> beenThere = new HashSet<>();
-//        Queue<Node> toBeCounted = new LinkedList<>();
-//        toBeCounted.add(startingNode);
-//        beenThere.add(startingNode);
-//        int size = 0;
-//        while(!toBeCounted.isEmpty()){
-//            Node current = toBeCounted.remove();
-//            size++;
-//            for(Node neighbor : current.neighbors){
-//                if(!beenThere.contains(neighbor)){
-//                    toBeCounted.add(neighbor);
-//                    beenThere.add(neighbor);
-//                }
-//            }
-//        }
-//        return size;
-//    }
+    public static ArrayList<Node> breadthFirstTraversal(Node startingNode){
+        HashSet<Node> visited = new HashSet<>();
+        ArrayList answer = new ArrayList();
+        Queue tempQueue  = new LinkedList();
+        tempQueue.add(startingNode);
+        visited.add(startingNode);
+        while(!tempQueue.isEmpty()){
+            Node tempNode = (Node) tempQueue.remove();
+            answer.add(tempNode);
+            for(Edge neighbor: (HashSet<Edge>) tempNode.neighbors){
+                if(!visited.contains(neighbor.node)){
+                    tempQueue.add(neighbor.node);
+                    visited.add(neighbor.node);
+                }
+            }
+        }
+        return answer;
+    }
+
+    public static ArrayList<Node> depthFirstTraversal(Node startingNode){
+        HashSet<Node> visited = new HashSet<>();
+        ArrayList answer = new ArrayList();
+        Stack tempStack  = new Stack();
+        tempStack.push(startingNode);
+        visited.add(startingNode);
+        while(!tempStack.isEmpty()){
+            Node tempNode = (Node) tempStack.pop();
+            answer.add(tempNode);
+            for(Edge neighbor: (HashSet<Edge>) tempNode.neighbors){
+                if(!visited.contains(neighbor.node)){
+                    tempStack.push(neighbor.node);
+                    visited.add(neighbor.node);
+                }
+            }
+        }
+        return answer;
+    }
+
 }
