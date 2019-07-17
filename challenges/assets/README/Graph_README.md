@@ -18,6 +18,7 @@
 - addNode(T data)
 - addEdge(Node<T> source, Node<T> destination)
 - Michelle's in class example for traversing a graph (in her example it was for size)
+- Evan for helping me understand the distinction between breadth first and depth first
 
 ## Whiteboard Picture
 ![](../img/BFTGraph.jpeg)

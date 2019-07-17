@@ -41,6 +41,9 @@
 ## Week 8
 - [Day 1: HashTables Left Join](./assets/README/HashTableLeftJoin_README.md)
 
-- [Day 1: Graph Implementation](./assets/README/Graph_README.md)
+- [Day 2: Graph Implementation](./assets/README/Graph_README.md)
+
+- [Day 3: Get Edge](./assets/README/GetEdge_README.md)
+
 
 
