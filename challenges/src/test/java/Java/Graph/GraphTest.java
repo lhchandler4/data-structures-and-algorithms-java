@@ -4,7 +4,6 @@ import org.junit.Test;
 
 import java.util.ArrayList;
 import java.util.HashSet;
-import java.util.LinkedList;
 
 import static org.junit.Assert.*;
 
@@ -128,7 +127,6 @@ public class GraphTest {
 
         ArrayList result = testing.breadthFirstTraversal(four);
         for(int i=0; i<expected.size(); i++){
-            System.out.println(((Node) result.get(i)).data);
             assertEquals(expected.get(i), ((Node) result.get(i)).data);
         }
     }
@@ -152,7 +150,6 @@ public class GraphTest {
 
         ArrayList result = testing.depthFirstTraversal(four);
         for(int i=0; i<expected.size(); i++){
-            System.out.println(((Node) result.get(i)).data);
             assertEquals(expected.get(i), ((Node) result.get(i)).data);
         }
     }

@@ -21,7 +21,6 @@ public class Node<T> {
         this.neighbors.add(edge);
         Edge edge2 = new Edge(this);
         node.neighbors.add(edge2);
-
         return true;
     }
 
