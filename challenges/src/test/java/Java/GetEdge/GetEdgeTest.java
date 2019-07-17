@@ -8,8 +8,9 @@ public class GetEdgeTest {
     @Test
     public void testEmptyGraph(){
         GetEdge test = new GetEdge();
+        //graph has no nodes in it
         Graph graph = new Graph();
-        String[] testing = new String[]{"LA", "NO", "SF"};
+        String[] testing = new String[]{"LA", "NO"};
         GetEdge expected = new GetEdge(false, 0);
         assertEquals(expected.directPossible, test.directRoute(graph, testing).directPossible);
         assertEquals(expected.cost, test.directRoute(graph, testing).cost);
@@ -19,6 +20,7 @@ public class GetEdgeTest {
     public void testDirectTrue(){
         GetEdge test = new GetEdge();
         Graph graph = new Graph();
+        //Now we are adding nodes to the graph
         Node LA = graph.addNode("LA");
         Node NO = graph.addNode("NO");
         Node SF = graph.addNode("SF");
@@ -40,6 +42,7 @@ public class GetEdgeTest {
 
     @Test
     public void testDirectFalse(){
+        //Same as second test but with a non direct route(flight)
         GetEdge test = new GetEdge();
         Graph graph = new Graph();
         Node LA = graph.addNode("LA");
