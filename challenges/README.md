@@ -45,5 +45,5 @@
 
 - [Day 3: Get Edge](./assets/README/GetEdge_README.md)
 
-
+- [Day 4: BFT Graph](./assets/README/Graph_README.md)
 
