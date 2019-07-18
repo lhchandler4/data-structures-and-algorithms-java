@@ -8,12 +8,16 @@
 - Get all the neighbors of a node. Returns a collection of nodes connected to the given node, takes in a given node, Include the weight of the connection in the returned collection.
 - Get the size of a graph. Returns the total number of nodes in the graph.                                 
 - A breadth-first traversal method that accepts a starting node. Return a collection of nodes in the order they were visited. 
+- A depth-first traversal method that accepts a starting node. Return a collection of nodes in the order they were visited. 
 
 ## Approach & Efficiency
 - breadthFirstTraversal has a time O(n) and space O(n)
+- depthFirstTraversal has a time O(n) and space O(n)
+
 
 ## API and Acknowledgements
 - addNeighbor(Node<T> node, int weight)
+- breadthFirstTraversal(Node, startingNode)
 - depthFirstTraversal(Node startingNode)
 - addNode(T data)
 - addEdge(Node<T> source, Node<T> destination)
@@ -22,6 +26,7 @@
 
 ## Whiteboard Picture
 ![](../img/BFTGraph.jpeg)
+![](../img/DFTGraph.jpeg)
 
 ## Code
 - [Graph Implementation Code](../../src/main/java/Java/Graph/Graph.java)

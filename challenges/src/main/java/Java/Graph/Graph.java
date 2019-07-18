@@ -37,6 +37,7 @@ public class Graph<T> {
         return this.nodes.size();
     }
 
+    //BreadthFirst
     public static ArrayList<Node> breadthFirstTraversal(Node startingNode){
         HashSet<Node> visited = new HashSet<>();
         ArrayList answer = new ArrayList();
@@ -56,6 +57,7 @@ public class Graph<T> {
         return answer;
     }
 
+    //Depth First
     public static ArrayList<Node> depthFirstTraversal(Node startingNode){
         HashSet<Node> visited = new HashSet<>();
         ArrayList answer = new ArrayList();
